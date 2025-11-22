@@ -1,0 +1,164 @@
+p{font-size:20px;
+    border-color: aqua;
+    border-radius:20px;
+    border:5px;
+    color:aliceblue;
+    font-weight: bold;
+
+    }
+
+    #firstheading{
+        color:pink;
+        border: 1px solid green;
+        border-radius:20px ;
+        border-width:5px ;
+        text-align: center;
+        outline:5px solid yellow;
+        outline-style: normal;
+        text-decoration: underline;
+        text-transform: none;
+        text-overflow:clip;
+        text-indent: 20px;
+        text-shadow :50px 50px 5px pink;
+        font:italic small-caps bold 30px/48px Georgia,serif;
+        
+        
+    }
+
+    .customstyle{
+        background-color:palevioletred;
+        color:blue;
+    }
+
+    h2,
+    h3,
+    h6{
+        color:red;
+    
+    }
+    
+    
+    *{
+        margin:10px;
+    
+      
+    }
+    body{
+        background-image: url('flower.jfif');
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+       background-position:center ;
+    
+    }
+    .container{
+        text-align: center;
+        color:#ffffff;
+        font-size: 15px;
+        padding:15px;
+        outline:5px solid pink;
+        border:5px solid yellow;
+        background-image:url('formimage.jfif.link');
+        background-size: cover;
+        font-weight:bold;
+        font-size: 20px;
+        border-radius:25px;
+
+
+    }
+    .tarak:hover{
+        background-color:yellow;
+        
+    }
+    .button{
+        border-radius:7px;
+        height:20px;
+        width:80px;
+        background-color:yellow;
+        border-width: 0px;
+        
+    }
+    .link{
+        color:beige;
+        text-decoration: none;
+        font-size:25px;
+        font-weight:bold;
+    }
+
+    .link:visited{
+        color:purple;
+        text-decoration: line-through;
+    }
+
+    .link:hover{
+        color:#ff0000;
+        text-shadow: 2px 2px  5px green;
+    }
+
+    .link:active{
+        color:greenyellow;
+        font-size:25px;
+    }
+    .ul li{
+        
+        list-style-image:url('star2.jpg');
+        display:inline;
+        
+    }
+    .ol li{
+        list-style-type:upper-alpha;
+        list-style-position: inside;
+    }
+
+    .card{
+        font-size:20px;
+       max-width:300px;
+       max-height: 200px;
+       width:100%;
+       overflow:scroll;
+    }
+    .box{
+        display:inline-block;
+    }
+
+    .container1{
+        display:flex;
+        background-color: rgb(157, 157, 214);
+        flex-direction: column;
+        justify-content:center
+    }
+    .container1 div{
+        background-color: aqua;
+        margin:10px;
+        padding:20px;
+        text-align: center;
+    }
+    .container2{
+        display:grid;
+        background-color: rgb(157, 157, 214);
+        justify-content: center;
+        grid-template-columns: auto auto  auto;
+        gap:10px;
+    }
+    .container2 span{
+        background-color: aqua;
+        border:2px solid black;
+        padding:20px;
+        margin:10px
+    
+        
+    }
+    .box{
+        
+        background-color:blue;
+        color:#ffffff;
+        height:50px;
+        width:180px;
+        animation: infinite,height 1s,width 1s,background 1s;
+    }
+    .box:hover{
+        transform:translate(50px,100px);
+        height:100px;
+        width:280px;
+        background:brown;
+    }
